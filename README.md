@@ -1,5 +1,6 @@
 # Chapter notes
 ## Chapter 2: Hello World
+[image](readme_images/ch02.jpg)
 **Chapter 2 notes and errors:**
 - createElement(type, [props], [...children]): create the React element, return a React element which is a JavaScript object that represents what is shown on screen.
 - render the Hello World React element:
