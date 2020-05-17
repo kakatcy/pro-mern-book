@@ -1,7 +1,11 @@
 # Chapter notes
 ## Chapter 2: Hello World
 **Summary**  
-In this chapter, I learned the basics of how React applications can be built. I wrote some simple code in React JSX and then used Babel to transform JSX into pure JavaScript to support old browsers.
+In this chapter, I learned the basics of how React applications can be built. I wrote some simple code in React JSX and then used Babel to transform JSX into pure JavaScript to support old browsers.   
+The Heroku link:   
+https://pro-mern-stack-2.herokuapp.com/
+
+Here is the screenshot of my program:   
 ![image](readme_images/ch02.jpg)
 
 **Chapter 2 notes and errors:**   
