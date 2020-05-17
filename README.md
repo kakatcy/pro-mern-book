@@ -1,10 +1,10 @@
 # Chapter notes
 ## Chapter 2: Hello World
-**Summary**
+**Summary**  
 In this chapter, I learned the basics of how React applications can be built. I wrote some simple code in React JSX and then used Babel to transform JSX into pure JavaScript to support old browsers.
 ![image](readme_images/ch02.jpg)
 
-**Chapter 2 notes and errors:**
+**Chapter 2 notes and errors:**   
 1.Server-Less Hello World
    - createElement(type, [props], [...children]): create the React element, return a React element which is a JavaScript object that represents what is shown on screen.
    - render the Hello World React element:
