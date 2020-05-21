@@ -2,18 +2,21 @@
 ## Chapter 3: React Components
 **Summary**  
 In this chapter, I created React classes and components and also pass data among these components.   
+
+
+Here is the screenshot of my program:   
+![image](readme_images/ch03.jpg)   
+  
 **Chapter 2 notes and errors:**  
 1. React Classes   
      - React classes are created by extending React.Component which all custom classes must be derived.   
+     - `npm run watch` and `npm start` to run the program
 2. Composing Components   
      - By using component composition, the UI can be split into smaller independent pieces so that each piece can be coded and reasoned in isolation.   
 3. Passing Data Using Properties   
      - The easiest way to pass data to child components is using an attribute when instantiating a component. For example `<IssueRow issur_title="Title of the first issue" />`, then within the render() method of the child, we can display it by using `<td>{this.props.issue_title}</td>`    
-     -  
-
-
-
-
+4. Passing Data Using Children   
+     - In the child component, use a special field of `this.props.children`   
 
 
 ## Chapter 2: Hello World
