@@ -1,13 +1,15 @@
 # Chapter notes
 ## Chapter 3: React Components
 **Summary**  
-In this chapter, I created React classes and components and also pass data among these components.   
+In this chapter, I implemented a main page of the Issue Tracker, which shows basic information of issues. I learned to use React classes and components and also pass data among these components in different ways.   
 
+The Heroku link:   
+https://pro-mern-stack-2.herokuapp.com/     
 
 Here is the screenshot of my program:   
 ![image](readme_images/ch03.jpg)   
   
-**Chapter 2 notes and errors:**  
+**Chapter 3 notes and errors:**  
 1. React Classes   
      - React classes are created by extending React.Component which all custom classes must be derived.   
      - `npm run watch` and `npm start` to run the program
