@@ -1,4 +1,25 @@
 # Chapter notes
+## Chapter 4: React State
+**Summary**  
+
+
+**Chapter 4 notes and errors:**  
+1. Initial State   
+     - `this.state` is a key-value pair in component's class, the key is a state variable name and the value is the current value of that variable.   
+     - add constructor and set initialIssues as the initial state, and also you can have other state variables like `page:0`    
+2. Async State Initialization
+     - state can be modified only by calling `this.setState({issues: newIssues});`    
+     - React provides many lifecycle methods to cater to situations where something needs to be done depending on the stage, or changes in the status of the component.    
+          - componentDidMount(): is called as soon as the component's representation has been converted and inserted into the DOM.   
+          - componentDidUpdate(): is invoked right after an update occurs, not for initial render.    
+          - componentWillUnmount(): is useful for cleanup such as cancelling timers and pending network requests.    
+          - shouldComponentUpdate(): optimize and prevent a rerender in case there is a change in the props or state that really doesn't affect the output or the view(rarely used).    
+3. Updating State     
+     - you can't push issue into issues directly, because the variable this.state in the component should always be treated as immutable, you have to make a copy of an array: `issues = this.state.issues.slice();`  
+4.   
+
+
+
 ## Chapter 3: React Components
 **Summary**  
 In this chapter, I implemented a main page of the Issue Tracker, which shows basic information of issues like ID, Status, Owner and so on. Firstly, I learned to use React classes which can be reused within other components and handle events. Then by using composing components, the UI split into smaller independent pieces so that each piece can be coded and reasoned in isolation. Lastly I passed data among these components by using properties and children and showed these data on the Issue Tracker page.     
