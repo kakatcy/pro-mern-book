@@ -1,7 +1,7 @@
 # Chapter notes
 ## Chapter 3: React Components
 **Summary**  
-In this chapter, I implemented a main page of the Issue Tracker, which shows basic information of issues. I learned to use React classes and components and also pass data among these components in different ways.   
+In this chapter, I implemented a main page of the Issue Tracker, which shows basic information of issues like ID, Status, Owner and so on. Firstly, I learned to use React classes which can be reused within other components and handle events. Then by using composing components, the UI split into smaller independent pieces so that each piece can be coded and reasoned in isolation. Lastly I passed data among these components by using properties and children and showed these data on the Issue Tracker page.     
 
 The Heroku link:   
 https://pro-mern-stack-2.herokuapp.com/     
