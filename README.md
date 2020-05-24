@@ -2,7 +2,6 @@
 ## Chapter 4: React State
 **Summary**  
 
-
 **Chapter 4 notes and errors:**  
 1. Initial State   
      - `this.state` is a key-value pair in component's class, the key is a state variable name and the value is the current value of that variable.   
@@ -25,8 +24,12 @@
 6. Stateless Components    
      - For performance reasons and clarity of code, change stateless components to pure functions    
 7. Designing Components   
-     - 
-
+     - State vs. Props    
+           - both hold model information, but props are immutable, state is not    
+           - State belongs to the component, props belongs to an ancestor, the component gets a read-only copy     
+     - Communication    
+           - Parents communicate to children via props, when state changes, the props automatically change,Children communicate to parents via callbacks     
+           - Siblings and cousins can't communicate with each other, the info has to go up the hierarchy and then back down    
 
 
 ## Chapter 3: React Components
