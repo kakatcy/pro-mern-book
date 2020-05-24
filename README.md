@@ -18,7 +18,14 @@
      - you can't push issue into issues directly, because the variable this.state in the component should always be treated as immutable, you have to make a copy of an array: `issues = this.state.issues.slice();`    
 4. Lifting State Up    
      - In React, only parents can pass information down to children, so if we have to pass info among siblings, we have to lift the state and all the methods up to common parent    
-     - bind the method createIssue in the constructor of IssueList to avoid the confusing meaning of "this" `this.createIssue = this.createIssue.bind(this);`
+     - bind the method createIssue in the constructor of IssueList to avoid the confusing meaning of "this" `this.createIssue = this.createIssue.bind(this);`    
+5. Event Handling   
+     - In order to prevent the form from being submitted when the Add button is clicked, we need to call the `preventDefault()` function on the event. The new issue can't add into the form if I delete this clause.    
+     - In order to persist the changes, we could either save the issues in local storage on the browser or save it in the server.   
+6. Stateless Components    
+     - For performance reasons and clarity of code, change stateless components to pure functions    
+7. Designing Components   
+     - 
 
 
 
