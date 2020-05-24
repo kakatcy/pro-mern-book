@@ -3,6 +3,9 @@
 **Summary**  
 In this chapter, I implemented a `Add` function by using State, which adds new issues according to user's inputs. Firstly, I set a timer to do state initialization. Then create a method to add a new issue to update state. In React, only parents can pass information down to children, so I had to lift the state up in my program. Finally I created the text inputs and add button to trigger the add event and also changed stateless components to simple functions.     
 
+Here is the screenshot of my program:   
+![image](readme_images/ch04.jpg)   
+
 **Chapter 4 notes and errors:**  
 1. Initial State   
      - `this.state` is a key-value pair in component's class, the key is a state variable name and the value is the current value of that variable.   
