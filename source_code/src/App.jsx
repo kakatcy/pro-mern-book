@@ -19,8 +19,7 @@ class IssueFilter extends React.Component {
     }
 }
 
-IssueTable(props){
-
+function IssueTable(props){
     const issueRows =  this.props.issues.map(issue => <IssueRow key={issue.id} issue={issue} />);
     return (
         <table className="bordered-table">

@@ -1,4 +1,22 @@
 # Chapter notes
+## Chapter 5: Express and GraphQL
+**Summary** 
+
+
+**Chapter 5 notes and errors:**  
+1. Express    
+     - Routing   
+       - A route specification consists of an HTTP method(GET, POST, etc.), a path specification that matches the request URI, and the route handler. Example:   
+<p align="center">```app.get('/hello',(req,res)=>{   
+                         res.send('Hello World!');    
+                    });</p> 
+     - Handler Function    
+       - once a route is matched, the handler function is called
+
+
+
+
+
 ## Chapter 4: React State
 **Summary**  
 In this chapter, I implemented a `Add` function by using State, which adds new issues according to user's inputs. Firstly, I set a timer to do state initialization. Then create a method to add a new issue to update state. In React, only parents can pass information down to children, so I had to lift the state up in my program. Finally I created the text inputs and add button to trigger the add event and also changed stateless components to simple functions.     
