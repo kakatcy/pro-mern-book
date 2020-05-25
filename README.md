@@ -7,9 +7,9 @@
 1. Express    
      - Routing   
        - A route specification consists of an HTTP method(GET, POST, etc.), a path specification that matches the request URI, and the route handler. Example:   
-<p align="center">```app.get('/hello',(req,res)=>{   
+<p align="center">`app.get('/hello',(req, res)=>{   
                          res.send('Hello World!');    
-                    });```</p>    
+                    });`</p>    
      - Handler Function    
        - once a route is matched, the handler function is called
 
