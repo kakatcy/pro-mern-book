@@ -13,7 +13,18 @@
        </p>      
      - Handler Function      
        - once a route is matched, the handler function is called
-
+     - Middleware    
+       - Middleware functions are those that have access to the request object(req), the response object, and the next middleware function in the application's request-response cycle.    
+2. GraphQL    
+     - Field Specification    
+       - the properties of an object that need to be returned must be specified. It's invalid to request nothing   
+     - Graph Based    
+     - Strongly Typed     
+3. The About API   
+     - nmp packages for graphql-tools, apollo-server, and the base package graphql `npm install graphql@0 apollo-server-express@2`    
+     - has two special types that are entry points into the type system, called Query and Mutation. The subtle difference is query fields are executed in parallel, mutation fields are executed in series.    
+     - default values are optional, values defined by ! after the type are mandatory    
+     - 
 
 
 
