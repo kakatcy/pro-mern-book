@@ -21,10 +21,21 @@
      - Graph Based    
      - Strongly Typed     
 3. The About API   
-     - nmp packages for graphql-tools, apollo-server, and the base package graphql `npm install graphql@0 apollo-server-express@2`    
+     - npm packages for graphql-tools, apollo-server, and the base package graphql `npm install graphql@0 apollo-server-express@2`    
      - has two special types that are entry points into the type system, called Query and Mutation. The subtle difference is query fields are executed in parallel, mutation fields are executed in series.    
      - default values are optional, values defined by ! after the type are mandatory    
+     - initialize the GraphQL, construct an ApolloServer object defined in the apollo-server-express package.    
+4. List API Integration   
+     - add whatwg-fetch Polyfill   
+     - construct a GraphQL query in loadData() method   
+     - use `response.json()` to get the JSON data converted to a Javascript  
+     - `setState()` to supply the list of issues to the state variable   
+5. Custom Scalar Types   
+     - define a type for the scalar using the `scalar` keyword instead of `type`    
+     - add a top-level resolver for all scalar types    
+6. The Create API   
      - 
+ 
 
 
 
