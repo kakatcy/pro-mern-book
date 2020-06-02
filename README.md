@@ -47,7 +47,7 @@ Here is the screenshot of my program:
      - detect input errors by checking if the constructed date object is a valid value, `isNaN(date)`   
     
 **Chapter 5 errors:** 
-1. The function should be `function issueValidate(issue)` instead of `function validateIssue(_, { issue })`    
+1. The function should be `function issueValidate(issue)` instead of `function validateIssue(_, { issue })` in page 123 and 125    
 
 ## Chapter 4: React State
 **Summary**  
