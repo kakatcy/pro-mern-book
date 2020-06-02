@@ -3,7 +3,10 @@
 **Summary** 
 
 
-**Chapter 5 notes and errors:**  
+Here is the screenshot of my program:   
+![image](readme_images/ch05.jpg)   
+
+**Chapter 5 notes:**  
 1. Express    
      - Routing   
        - A route specification consists of an HTTP method(GET, POST, etc.), a path specification that matches the request URI, and the route handler. Example:   
@@ -34,11 +37,17 @@
      - define a type for the scalar using the `scalar` keyword instead of `type`    
      - add a top-level resolver for all scalar types    
 6. The Create API   
-     - 
- 
-
-
-
+     - have to use the `input` keyword instead of `type`, and define a new type(IssueInputs) as an object that has the fields we need for the input        
+     - use the type IssueInputs as the argument type to the new issueAdd field under Mutation     
+     - implement the parsers for receiving data values, there are two methods that need to be implemented in the GraphQLDate resolver: `parseValue` and `parseLiteral`    
+7. Query Variables    
+     - name the operations to use variables   
+     - the input value has to be replaced with a variable name, variable names start with the $ character    
+8. Input Validations   
+     - detect input errors by checking if the constructed date object is a valid value, `isNaN(date)`   
+    
+**Chapter 5 errors:** 
+1. The function should be `function issueValidate(issue)` instead of `function validateIssue(_, { issue })`    
 
 ## Chapter 4: React State
 **Summary**  

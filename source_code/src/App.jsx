@@ -45,7 +45,7 @@ class IssueAdd extends React.Component {
         e.preventDefault();
         const form = document.forms.issueAdd;
         const issue = {
-            owner: form.owner.value, title: form.title.value, status:'New',
+            owner: form.owner.value, title: form.title.value, due: new Date(new Date().getTime() + 1000*60*60*24*10),
         }
         this.props.createIssue(issue);
         form.owner.value = ""; form.title.value = "";
@@ -76,6 +76,31 @@ function IssueRow(props){
     );  
 }
 
+async function graphQLFetch(query, variables = {}){
+    try{
+        const response = await fetch('/graphql',{
+            method: 'POST',
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({query, variables})
+        });
+        const body = await response.text();
+        const result = JSON.parse(body, jsonDateReviver);
+
+        if(result.errors){
+            const error = result.errors[0];
+            if(error.extensions.code == 'BAD_USER_INPUT'){
+                const details = error.extensions.exception.errors.join('\n ');
+                alert(`${error.message}:\n ${details}`);
+            }else{
+                alert(`${error.extensions.code}: ${error.message}`);
+            }
+        }
+        return result.data;
+    }catch(e){
+        alert(`Error in sending data to server: ${e.message}`);
+    }
+}
+
 class IssueList extends React.Component {
     constructor(){
         super();
@@ -95,22 +120,23 @@ class IssueList extends React.Component {
             }
         }`;
 
-        const response = await fetch('/graphql',{
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({query})
-        });
-        const body = await response.text();
-        const result = JSON.parse(body, jsonDateReviver);
-        this.setState({issues: result.data.issueList});
+        const data = await graphQLFetch(query);
+        if(data){
+            this.setState({ issues: data.issueList});
+        }
     }
 
-    createIssue(issue){
-        issue.id = this.state.issues.length + 1;
-        issue.created = new Date();
-        const newIssueList = this.state.issues.slice();
-        newIssueList.push(issue);
-        this.setState({ issues: newIssueList}); 
+    async createIssue(issue){
+        const query = `mutation issueAdd($issue: IssueInputs!){
+            issueAdd(issue: $issue){
+                id
+            }
+        }`;
+
+        const data = await graphQLFetch(query, {issue});
+        if(data){
+            this.loadData();
+        }
     }
 
     render(){
