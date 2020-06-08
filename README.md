@@ -1,14 +1,14 @@
 # Chapter notes
 ## Chapter 5: Express and GraphQL
 **Summary** 
-In this chapter, firstly, I learned the Express framework like routing, handler function and so on. Then I learned REST API which is very popular pattern but it is hard to use when different clients access the same set of APIs. So we used the GraphQL(an query language used to describe requests from a web client to a web server). I also used the tool Playground that developers can explore the API and learned how to change the date to a simpler format. Lastly I implemented input validation and display errors.      
+In this chapter, firstly, I learned the Express framework like routing, handler function and so on. Then I learned REST API which is very popular pattern but it is hard to use when different clients access the same set of APIs. So we used the GraphQL(an query language used to describe requests from a web client to a web server). I also used the tool Playground that developers can explore the API and learned how to change the date to a simpler format. Lastly I implemented input validation and display errors.       
 
 
 Here is the screenshot of my program:   
 ![image](readme_images/ch05.jpg)   
 
 **Chapter 5 notes:**  
-1. Express    
+1. Express      
      - Routing   
        - A route specification consists of an HTTP method(GET, POST, etc.), a path specification that matches the request URI, and the route handler. Example:   
        <p align="center">app.get('/hello',(req, res)=>{   
