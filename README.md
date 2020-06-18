@@ -1,4 +1,38 @@
 # Chapter notes
+## Chapter 6: MongoDB
+**Summary**    
+
+
+
+
+
+
+**Chapter 6 notes:**  
+1. MongoDB Basics    
+     - Documents    
+       - Document databases can contain arrays and other objects in a nested manner and the contained objects don't have to be separated out into other documents.    
+     - Collections   
+       - A primary key is mandated in MongoDB, it has the reserved field name _id which is  a special type called ObjectId.    
+     - Query Language    
+       - MongoDB query language is made up of methods to achieve various operations, the main methods for read and write operations are the CRUD methods, other methods include aggregation, text search and geospatial queries.   
+     - The Mongo Shell    
+       - print() can print only strings, and printjson() can print objects as JSON.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Chapter 5: Express and GraphQL
 **Summary** 
 In this chapter, firstly, I learned the Express framework like routing, handler function and so on. Then I learned REST API which is very popular pattern but it is hard to use when different clients access the same set of APIs. So we used the GraphQL(an query language used to describe requests from a web client to a web server). I also used the tool Playground that developers can explore the API and learned how to change the date to a simpler format. Lastly I implemented input validation and display errors.       
