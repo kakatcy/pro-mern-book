@@ -41,7 +41,7 @@ Here is the screenshot of my program:
        - `db.employees.deleteOne()`    
        - `db.employees.deleteMany()`    
      - Aggregate    
-       - To group the aggregate by a field. We'll need to specify the name of the field(prefixed by a $) as the value of _id. `     
+       - To group the aggregate by a field. We'll need to specify the name of the field(prefixed by a $) as the value of _id.        
 
 3. Schema Initialization      
      - MongoDB doesn't enforce a schema, there is no schema initialization as in relational databases, the only thing that is really useful is the creation of indexes.    
