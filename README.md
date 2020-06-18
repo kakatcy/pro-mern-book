@@ -1,10 +1,11 @@
 # Chapter notes
 ## Chapter 6: MongoDB
 **Summary**    
+In this chapter, firstly, I learned basic conceptions about MongoDB like the difference between MongoDB and traditional relational databases, installed it locally and tried to use the mongo shell and Node.js driver to do some basic operations including read, find update and delete in MongoDB. Secondly, I modified the Issue Tracker application to do read and write operation in the MongoDB which make the program persistently store the issue information.      
 
 
-
-
+Here is the screenshot of my program:   
+![image](readme_images/ch06.jpg)   
 
 
 **Chapter 6 notes:**  
@@ -49,22 +50,7 @@
      - Since the issues from the database contain an _id in addition to the id field, don't forget include that in the GraphQL schema of the type Issue. Otherwise, clients who call the API will not able to access this field.      
 
 5. Writing to MongoDB     
-     - update a counter and return the updated value by using `findOneAndUpdate()`, and we use the $inc operator to increment the current value.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     - update a counter and return the updated value by using `findOneAndUpdate()`, and we use the $inc operator to increment the current value.     
 
 
 ## Chapter 5: Express and GraphQL
