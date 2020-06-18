@@ -16,7 +16,34 @@
      - Query Language    
        - MongoDB query language is made up of methods to achieve various operations, the main methods for read and write operations are the CRUD methods, other methods include aggregation, text search and geospatial queries.   
      - The Mongo Shell    
-       - print() can print only strings, and printjson() can print objects as JSON.
+       - print() can print only strings, and printjson() can print objects as JSON.    
+
+2. MongoDB CRUD Operations   
+     - Create   
+       - `db.employees.insertOne()`    
+       - `db.employees.insertMany()`        
+     - Read     
+       - find method has two argument, filter and projection.    
+       - `db.employees.findOne({ id:1})`    
+       - `db.employees.find({ age:{$gte(lte) :30}})`    
+       - with index, any query that uses a filter that has the field age in it will be significantly faster because MongoDB will use this index instead of scanning through all documents in the collection.    
+       - `db.employees.createIndex({ id: 1 }, { unique: true })` create a unique index on id.     
+     - Projection    
+       - the project is the second argument of find method, it specifies which fields to include or exclude in the result to decrease the network bandwidth.     
+       - the format is an object with one or more field names as the key and the value as 0 or 1, to indicate exclusion or inclusion.     
+     - Update     
+       - it has two arguments, one is a query filter, the second is an update specification if only some fields of the object need to be changed.    
+       - `db.employees.updateOne()`     
+       - `db.employees.updateMany()`     
+       - `db.employees.replaceOne()`, all pervious info will be replaced by new info     
+     - Delete    
+       - `db.employees.deleteOne()`    
+       - `db.employees.deleteMany()`    
+     - Aggregate    
+       - To group the aggregate by a field. We'll need to specify the name of the field(prefixed by a $) as the value of _id. `     
+
+3. MongoDB Node.js Driver    
+
 
 
 
