@@ -39,12 +39,6 @@ function testWithCallbacks(callback) {
     });
 }
 
-testWithCallbacks(function(err){
-    if(err){
-        console.log(err);
-    }
-});
-
 async function testWithAsync(){
     console.log('\n--- testWithAsync ---');
     const client = new MongoClient(url, { useNewUrlParser: true }); 
