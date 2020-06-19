@@ -1,4 +1,21 @@
 # Chapter notes
+## Chapter 7: Architecture and ESLint
+**Summary**    
+
+
+
+**Chapter 6 notes:**   
+1. UI Server      
+     - The UI server contains only the static middleware, it will be responsible for generating HTML pages by calling the API server's APIs to fetch the necessary data.     
+     - The API server will be responsible for handling only the API requests, it will respond only to URLs matching /graphql in the path.     
+
+2. Multiple Environments    
+     -      
+
+
+
+
+
 ## Chapter 6: MongoDB
 **Summary**    
 In this chapter, firstly, I learned basic conceptions about MongoDB like the difference between MongoDB and traditional relational databases, installed it locally and tried to use the mongo shell and Node.js driver to do some basic operations including read, find update and delete in MongoDB. Secondly, I modified the Issue Tracker application to do read and write operation in the MongoDB which make the program persistently store the issue information.      
