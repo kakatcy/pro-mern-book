@@ -17,6 +17,10 @@
      - The Same-origin policy is to prevent malicious websites from gaining unauthorized access to the application. The gist of it is that since cookies set by one origin are automatically attached with any request to that origin, it is possible that a malicious website can make a call to the origin from the browser and the browser will attach the cookie.       
 
 4. ESLint     
+     - A linter checks for suspicious code that could be bugs and also check whether your code adheres to conventions and standards that you want to follow across your team to make the code readable.      
+     - ESLint is a very flexible linter that lets you define the rules that you want to follow.        
+
+5. ESLint for the Front-End     
      - 
 
 
