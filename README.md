@@ -14,7 +14,9 @@
      - The package `dotenv` is used to convert variables stored in a file into environment variables. And it looks for a file called .env.      
 
 3. Proxy-Based Architecture         
-     - The Same-origin policy is to prevent malicious websites from gaining unauthorized access to the application. The gist of it is that since cookies set by one origin are automatically attached with any request to that origin, it is possible that a malicious website can make a call to the origin from the browser and the browser will attach the cookie.      
+     - The Same-origin policy is to prevent malicious websites from gaining unauthorized access to the application. The gist of it is that since cookies set by one origin are automatically attached with any request to that origin, it is possible that a malicious website can make a call to the origin from the browser and the browser will attach the cookie.       
+
+4. ESLint     
      - 
 
 
