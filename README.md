@@ -1,8 +1,11 @@
 # Chapter notes
 ## Chapter 7: Architecture and ESLint
 **Summary**    
+In this chapter, firstly, I separated this program into two servers, UI server and the API server. They are ran on the same computer but on different ports. Then deleted all hard-coded things and used the `dotenv` package which made program store all configuration in a .env file. In this way, it's better to fit for different deployment environments. Lastly, I sanitized the code according to specific standard, which make the code more readable and it's good for group development.     
 
-
+Here is the screenshot of my program:   
+![image](readme_images/ch07_api.jpg)
+![image](readme_images/ch07_ui.jpg)
 
 **Chapter 6 notes:**   
 1. UI Server      
@@ -22,12 +25,6 @@
 
 5. ESLint for the Front-End     
      - Two ways to ignore patterns of files: (1) `npx eslint . --ignore-pattern public` (2) add them to a text file called .eslintignore.     
-
-6. React PropTypes     
-     - 
-
-
-
 
 
 ## Chapter 6: MongoDB
