@@ -21,6 +21,9 @@
      - ESLint is a very flexible linter that lets you define the rules that you want to follow.        
 
 5. ESLint for the Front-End     
+     - Two ways to ignore patterns of files: (1) `npx eslint . --ignore-pattern public` (2) add them to a text file called .eslintignore.     
+
+6. React PropTypes     
      - 
 
 
