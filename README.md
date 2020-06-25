@@ -8,7 +8,11 @@ In this chapter, firstly, I
 1. Back-End Modules      
      - `require()` imports symbols from another module, it returns all variables which are `module.exports` in the other module.    
 
+2. Front-End Modules and Webpack      
+     - To import another file, use `import "element or variable" from 'identifier of the file or module'`     
 
+3. Transform and Bundle     
+     - 
 
 
 
