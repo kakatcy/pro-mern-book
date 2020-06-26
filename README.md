@@ -6,7 +6,7 @@ In this chapter, I continued to restructuring the program and modularized the co
 Here is the screenshot of my program:   
 ![image](readme_images/ch08.jpg)
 
-**Chapter 8 notes:**   
+**Chapter 8 notes:**    
 1. Back-End Modules      
      - `require()` imports symbols from another module, it returns all variables which are `module.exports` in the other module.    
 
