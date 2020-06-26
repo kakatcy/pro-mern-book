@@ -14,7 +14,9 @@ In this chapter, firstly, I
 3. Transform and Bundle     
      - each React component be placed in its own file, especially if the component is a stateful one, stateless components can be combined with other components when convenient and when they belong together.      
 
-
+4. Hot Module Replacement     
+     - The Hot Module Replacement changes modules in the browser while the application is running, removing the need from a refresh altogether. Also it will retain the application state. Most importantly, it saves time by updating only what is changed.     
+     - 
 
 
 

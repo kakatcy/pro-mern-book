@@ -1,5 +1,5 @@
-/* globals React */
 /* eslint "react/jsx-no-undef": "off" */
+import React from 'react';
 
 export default class IssueFilter extends React.Component {
     render() {
