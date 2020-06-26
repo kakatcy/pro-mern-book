@@ -16,7 +16,10 @@ In this chapter, firstly, I
 
 4. Hot Module Replacement     
      - The Hot Module Replacement changes modules in the browser while the application is running, removing the need from a refresh altogether. Also it will retain the application state. Most importantly, it saves time by updating only what is changed.     
-     - 
+
+5. Debugging     
+     - it's hard to put breakpoints in the debugger because the original source code gets lost. So we should use Webpack which provide the source maps containing original code.    
+
 
 
 
