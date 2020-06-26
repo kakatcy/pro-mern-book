@@ -1,8 +1,10 @@
 # Chapter notes
 ## Chapter 8: Modularization and Webpack
 **Summary**    
-In this chapter, firstly, I 
+In this chapter, I continued to restructuring the program and modularized the code. Firstly, I split the back-end modules into different files for different components and used `require` to import other components. Secondly, I used Webpack for code transforming and bundling and removed the dependency on the CDN. In addition, I used Hot Module Replacement to change modules in the browser when application is running and also learned the source maps which contains original code that can help in debugging.          
 
+Here is the screenshot of my program:   
+![image](readme_images/ch08.jpg)
 
 **Chapter 8 notes:**   
 1. Back-End Modules      
@@ -19,16 +21,6 @@ In this chapter, firstly, I
 
 5. Debugging     
      - it's hard to put breakpoints in the debugger because the original source code gets lost. So we should use Webpack which provide the source maps containing original code.    
-
-
-
-
-
-
-
-
-
-
 
 
 
