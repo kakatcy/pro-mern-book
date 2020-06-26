@@ -12,7 +12,9 @@ In this chapter, firstly, I
      - To import another file, use `import "element or variable" from 'identifier of the file or module'`     
 
 3. Transform and Bundle     
-     - 
+     - each React component be placed in its own file, especially if the component is a stateful one, stateless components can be combined with other components when convenient and when they belong together.      
+
+
 
 
 
