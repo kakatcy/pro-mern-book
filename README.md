@@ -1,8 +1,10 @@
 # Chapter notes
 ## Chapter 9: React Router
 **Summary**    
-In this chapter, 
+In this chapter, I implemented router by using React Router component in the Issuetracker application. Firstly, I added a navigator bar on the top of the page which helps us to test the simple routing, and also connected the URLs in the browser. Secondly, I used parameters and query strings to specify different contents. Then I used React Link component to replace the hrefs hyperlinks to make it more convenient to create links. Lastly, I added a description part by using the Nested Routes and also changed hash-based routing to browser history-based routing.      
 
+Here is the screenshot of my program:   
+![image](readme_images/ch09.jpg)
 
 **Chapter 9 notes:**    
 1. Simple Routing     
@@ -19,9 +21,6 @@ In this chapter,
 4. Nested Routes        
      - nested routes: the beginning part of the path depicts one section of a page, and based on interaction with that page, the latter part of the path depicts what's shown additionally in the page.     
      - used `NavLink` to highlight the selected issue.    
-
-
-
 
 
 ## Chapter 8: Modularization and Webpack
