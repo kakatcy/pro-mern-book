@@ -8,6 +8,8 @@ In this chapter,
 1. Simple Routing     
      - React Router provides `Router` to achieve routing between different components.     
 
+2. Route Parameters     
+     - Using the : character followed by the name of the property to specify parameters in the route path.      
 
 
 
