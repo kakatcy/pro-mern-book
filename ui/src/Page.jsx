@@ -7,10 +7,10 @@ function NavBar() {
     <nav>
       <NavLink exact to="/">Home</NavLink>
       {' | '}
-      <NavLink to="/issues">Issue List</NavLink> 
+      <NavLink to="/issues">Issue List</NavLink>
       {' | '}
       <NavLink to="/report">Report</NavLink>
-    </nav> 
+    </nav>
   );
 }
 
@@ -19,6 +19,6 @@ export default function Page() {
     <div>
       <NavBar />
       <Contents />
-    </div> 
+    </div>
   );
 }

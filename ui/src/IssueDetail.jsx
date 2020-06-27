@@ -1,13 +1,13 @@
 import React from 'react';
 import graphQLFetch from './graphQLFetch.js';
 
-export default class IssueDetail extends React.Component { 
+export default class IssueDetail extends React.Component {
   constructor() {
     super();
     this.state = { issue: {} };
   }
 
-  componentDidMount() { 
+  componentDidMount() {
     this.loadData();
   }
 
@@ -15,7 +15,7 @@ export default class IssueDetail extends React.Component {
     const { match: { params: { id: prevId } } } = prevProps;
     const { match: { params: { id } } } = this.props;
     if (prevId !== id) {
-      this.loadData(); 
+      this.loadData();
     }
   }
 

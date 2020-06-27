@@ -3,22 +3,22 @@ const { Kind } = require('graphql/language');
 
 
 const GraphQLDate = new GraphQLScalarType({
-    name: 'GraphQLDate',
-    description: 'A Date() type in GraphQL as a scalar',
-    serialize(value) {
-      return value.toISOString();
-    },
-    parseValue(value) {
-      const dataValue = new Date(value);
-      return Number.isNaN(dataValue.getTime()) ? undefined : dataValue;
-    },
-    parseLiteral(ast) {
-      if (ast.kind === Kind.STRING) {
-        const value = new Date(ast.value);
-        return Number.isNaN(value.getTime()) ? undefined : value;
-      }
-      return undefined;
-    },
-  });
+  name: 'GraphQLDate',
+  description: 'A Date() type in GraphQL as a scalar',
+  serialize(value) {
+    return value.toISOString();
+  },
+  parseValue(value) {
+    const dataValue = new Date(value);
+    return Number.isNaN(dataValue.getTime()) ? undefined : dataValue;
+  },
+  parseLiteral(ast) {
+    if (ast.kind === Kind.STRING) {
+      const value = new Date(ast.value);
+      return Number.isNaN(value.getTime()) ? undefined : value;
+    }
+    return undefined;
+  },
+});
 
-  module.exports = GraphQLDate;
+module.exports = GraphQLDate;

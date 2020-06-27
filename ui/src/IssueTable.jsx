@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link, NavLink, withRouter } from 'react-router-dom';
 
-
-const IssueRow =  withRouter(({ issue, location: { search } }) => {
-  const selectLocation = { pathname: `/issues/${issue.id}`, search};
+const IssueRow = withRouter(({ issue, location: { search } }) => {
+  const selectLocation = { pathname: `/issues/${issue.id}`, search };
   return (
     <tr>
       <td>{issue.id}</td>
@@ -23,27 +22,26 @@ const IssueRow =  withRouter(({ issue, location: { search } }) => {
 });
 
 export default function IssueTable({ issues }) {
-    const issueRows = issues.map(issue => (
-      <IssueRow key={issue.id} issue={issue} />
-    ));
-    return (
-      <table className="bordered-table">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Status</th>
-            <th>Owner</th>
-            <th>Created</th>
-            <th>Effort</th>
-            <th>Due Date</th>
-            <th>Title</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {issueRows}
-        </tbody>
-      </table>
-    );
-  }
-  
+  const issueRows = issues.map(issue => (
+    <IssueRow key={issue.id} issue={issue} />
+  ));
+  return (
+    <table className="bordered-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Status</th>
+          <th>Owner</th>
+          <th>Created</th>
+          <th>Effort</th>
+          <th>Due Date</th>
+          <th>Title</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {issueRows}
+      </tbody>
+    </table>
+  );
+}

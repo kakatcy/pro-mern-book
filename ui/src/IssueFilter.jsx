@@ -16,20 +16,21 @@ class IssueFilter extends React.Component {
       search: status ? `?status=${status}` : '',
     });
   }
-    render() {
-      return (
-        <div>
-          Status:
-          {' '}
-          <select onChange={this.onChangeStatus}>
-            <option value="">(All)</option>
-            <option value="New">New</option>
-            <option value="Assigned">Assigned</option>
-            <option value="Fixed">Fixed</option>
-            <option value="Closed">Closed</option>
-          </select>
-        </div>
-      );
-    }
+
+  render() {
+    return (
+      <div>
+        Status:
+        {' '}
+        <select onChange={this.onChangeStatus}>
+          <option value="">(All)</option>
+          <option value="New">New</option>
+          <option value="Assigned">Assigned</option>
+          <option value="Fixed">Fixed</option>
+          <option value="Closed">Closed</option>
+        </select>
+      </div>
+    );
   }
+}
 export default withRouter(IssueFilter);

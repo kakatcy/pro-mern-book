@@ -26,4 +26,3 @@ function getDb() {
 }
 
 module.exports = { connectToDb, getNextSequence, getDb };
-
