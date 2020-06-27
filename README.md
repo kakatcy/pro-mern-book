@@ -11,6 +11,13 @@ In this chapter,
 2. Route Parameters     
      - Using the : character followed by the name of the property to specify parameters in the route path.      
 
+3. Links     
+     - React Router provides a better way than using hrefs to create links via the `Link` component.     
+     - The paths in a Link are always absolute, it doesn't support relative paths.     
+     - The `NavLink` allows us to highlight the currently active navigation link.     
+
+ 
+
 
 
 
