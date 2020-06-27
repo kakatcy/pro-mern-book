@@ -1,4 +1,17 @@
 # Chapter notes
+## Chapter 9: React Router
+**Summary**    
+In this chapter, 
+
+
+**Chapter 9 notes:**    
+1. Simple Routing     
+     - React Router provides `Router` to achieve routing between different components.     
+
+
+
+
+
 ## Chapter 8: Modularization and Webpack
 **Summary**    
 In this chapter, I continued to restructuring the program and modularized the code. Firstly, I split the back-end modules into different files for different components and used `require` to import other components. Secondly, I used Webpack for code transforming and bundling and removed the dependency on the CDN. In addition, I used Hot Module Replacement to change modules in the browser when application is running and also learned the source maps which contains original code that can help in debugging.          
