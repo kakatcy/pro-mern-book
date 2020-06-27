@@ -16,7 +16,10 @@ In this chapter,
      - The paths in a Link are always absolute, it doesn't support relative paths.     
      - The `NavLink` allows us to highlight the currently active navigation link.     
 
- 
+4. Nested Routes        
+     - nested routes: the beginning part of the path depicts one section of a page, and based on interaction with that page, the latter part of the path depicts what's shown additionally in the page.     
+     - used `NavLink` to highlight the selected issue.    
+
 
 
 
