@@ -11,6 +11,9 @@ In this chapter,
      - added "Apply" button and "Reset" button to control filters
 2. Typed Input     
      - added a filter based on "Effort", the value is an integer. So I added two input fields to specify the maximum and minimum Effort values.      
+3. Edit Form     
+     - implemented the edit page for issues, also added Prev and Next links in this page.      
+
 
 
 
