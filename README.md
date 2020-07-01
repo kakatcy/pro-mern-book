@@ -6,10 +6,11 @@ In this chapter,
 
 
 **Chapter 10 notes:**   
-1. Controlled Components      
+1. Controlled Components in Forms        
      - controlled components: the input form element whose value is controlled by React.      
-
-
+     - added "Apply" button and "Reset" button to control filters
+2. Typed Input     
+     - added a filter based on "Effort", the value is an integer. So I added two input fields to specify the maximum and minimum Effort values.      
 
 
 
