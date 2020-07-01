@@ -1,4 +1,20 @@
 # Chapter notes
+## Chapter 10: React Forms
+**Summary**   
+In this chapter,
+
+
+
+**Chapter 10 notes:**   
+1. Controlled Components      
+     - controlled components: the input form element whose value is controlled by React.      
+
+
+
+
+
+
+
 ## Chapter 9: React Router
 **Summary**    
 In this chapter, I implemented router by using React Router component in the Issuetracker application. Firstly, I added a navigator bar on the top of the page which helps us to test the simple routing, and also connected the URLs in the browser. Secondly, I used parameters and query strings to specify different contents. Then I used React Link component to replace the hrefs hyperlinks to make it more convenient to create links. Lastly, I added a description part by using the Nested Routes and also changed hash-based routing to browser history-based routing.      
