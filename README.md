@@ -18,8 +18,11 @@ In this chapter,
      - Number Input     
        - created UI component NumInput in `NumInput.jsx` file and used it for the effort field in the Edit page.     
      - Date Input     
-       - Created UI component DateInput in `DateInput.jsx` file and also check if users input valid date format.     
-
+       - Created UI component DateInput in `DateInput.jsx` file and also check if users input valid date format.      
+     - Text Input     
+       - Created UI component TextInput in `TextInput.jsx` file and also convert empty strings to null value.     
+5. Update API      
+     - 
 
 
 
