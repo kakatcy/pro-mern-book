@@ -16,7 +16,10 @@ In this chapter,
 4. Specialized Input Components     
      - make reusable UI components for the non-string inputs, which emit natural data types in their `onChange` handlers.     
      - Number Input     
-       - created UI component NumInput in `NumInput.jsx` file and used it for the effort field in the Edit page.      
+       - created UI component NumInput in `NumInput.jsx` file and used it for the effort field in the Edit page.     
+     - Date Input     
+       - Created UI component DateInput in `DateInput.jsx` file and also check if users input valid date format.     
+
 
 
 
