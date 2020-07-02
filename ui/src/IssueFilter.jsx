@@ -16,8 +16,8 @@ class IssueFilter extends React.Component {
     this.onChangeStatus = this.onChangeStatus.bind(this);
     this.onChangeEffortMin = this.onChangeEffortMin.bind(this);
     this.onChangeEffortMax = this.onChangeEffortMax.bind(this);
-    this.applyFilter =  this.applyFilter.bind(this);
-    this.showOriginalFilter =  this.showOriginalFilter.bind(this);
+    this.applyFilter = this.applyFilter.bind(this);
+    this.showOriginalFilter = this.showOriginalFilter.bind(this);
   }
 
   componentDidUpdate(prevProps) {

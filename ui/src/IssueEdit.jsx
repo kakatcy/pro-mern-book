@@ -6,7 +6,7 @@ import NumInput from './NumInput.jsx';
 import DateInput from './DateInput.jsx';
 import TextInput from './TextInput.jsx';
 
-export default class IssueEdit extends React.Component{
+export default class IssueEdit extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -18,21 +18,12 @@ export default class IssueEdit extends React.Component{
     this.onValidityChange = this.onValidityChange.bind(this);
   }
 
-  onValidityChange(event, valid) {
-    const { name } = event.target;
-    this.setState((prevState) => {
-      const invalidFields = { ...prevState.invalidFields, [name]: !valid };
-      if (valid) delete invalidFields[name];
-      return { invalidFields };
-    });
-  }
-
   componentDidMount() {
     this.loadData();
   }
 
   componentDidUpdate(prevProps) {
-    const { match: { params: { id: prevId} } } = prevProps;
+    const { match: { params: { id: prevId } } } = prevProps;
     const { match: { params: { id } } } = this.props;
     if (id !== prevId) {
       this.loadData();
@@ -43,8 +34,17 @@ export default class IssueEdit extends React.Component{
     const { name, value: textValue } = event.target;
     const value = naturalValue === undefined ? textValue : naturalValue;
     this.setState(prevState => ({
-      issue: { ...prevState.issue, [name]:value },
+      issue: { ...prevState.issue, [name]: value },
     }));
+  }
+
+  onValidityChange(event, valid) {
+    const { name } = event.target;
+    this.setState((prevState) => {
+      const invalidFields = { ...prevState.invalidFields, [name]: !valid };
+      if (valid) delete invalidFields[name];
+      return { invalidFields };
+    });
   }
 
   async handleSubmit(e) {
@@ -81,7 +81,7 @@ export default class IssueEdit extends React.Component{
       }
     }`;
 
-    const { match: { params: { id } } } =this.props;
+    const { match: { params: { id } } } = this.props;
     const data = await graphQLFetch(query, { id: parseInt(id, 10) });
     this.setState({ issue: data ? data.issue : {}, invalidFields: {} });
   }
@@ -186,7 +186,7 @@ export default class IssueEdit extends React.Component{
                   onChange={this.onChange}
                   key={id}
                 />
-              </td> 
+              </td>
             </tr>
             <tr>
               <td />
@@ -198,7 +198,7 @@ export default class IssueEdit extends React.Component{
         <Link to={`/edit/${id - 1}`}>Prev</Link>
         {' | '}
         <Link to={`/edit/${id + 1}`}>Next</Link>
-      </form> 
+      </form>
     );
-  } 
+  }
 }
