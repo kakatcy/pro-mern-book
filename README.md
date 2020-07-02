@@ -21,8 +21,13 @@ In this chapter,
        - Created UI component DateInput in `DateInput.jsx` file and also check if users input valid date format.      
      - Text Input     
        - Created UI component TextInput in `TextInput.jsx` file and also convert empty strings to null value.     
-5. Update API      
-     - 
+5. Update   
+     - Update API      
+       - implemented an API called `IssueUpdateInputs` that updates an issue.    
+     - Update an Issue     
+       - use the update API to save the changes made by users.     
+     - Update a Field     
+       - use the update API and added a button to change the Status of issues to Closed     
 
 
 
