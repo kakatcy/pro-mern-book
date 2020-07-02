@@ -1,7 +1,7 @@
 # Chapter notes
 ## Chapter 10: React Forms
 **Summary**   
-In this chapter, Firstly, I compared the controlled and uncontrolled form components, and added apply button and reset button to control filters. Secondly, I created some React UI components such as <NumInput>, <DateInput> and <TextInput> which used for different types of data. Lastly, I finished the CRUD paradigm by adding Update and Delete operation. I implemented update for a whole issue and also just change to states of issue. For the deletion part, I added a delete button and users can click it to delete the issue.     
+In this chapter, Firstly, I compared the controlled and uncontrolled form components, and added apply button and reset button to control filters. Secondly, I created some React UI components such as NumInput, DateInput and TextInput, which used for different types of data. Lastly, I finished the CRUD paradigm by adding Update and Delete operation. I implemented update for a whole issue and also just change to states of issue. For the deletion part, I added a delete button and users can click it to delete the issue.     
 
 
 Here is the screenshot of my program:   
