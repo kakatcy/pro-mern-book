@@ -1,9 +1,14 @@
 # Chapter notes
 ## Chapter 10: React Forms
 **Summary**   
-In this chapter,
+In this chapter, 
 
 
+
+
+Here is the screenshot of my program:   
+![image](readme_images/ch10_issue.jpg)
+![image](readme_images/ch10_edit.jpg)
 
 **Chapter 10 notes:**   
 1. Controlled Components in Forms        
@@ -28,9 +33,11 @@ In this chapter,
        - use the update API to save the changes made by users.     
      - Update a Field     
        - use the update API and added a button to change the Status of issues to Closed     
-
-
-
+6. Delete      
+     - Delete API     
+       - implemented the Delete API and used a new collection to store all deleted issues.      
+     - Delete an Issue      
+       - added a delete button to delete an issue, which use the delete API.     
 
 
 ## Chapter 9: React Router
