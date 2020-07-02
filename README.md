@@ -13,7 +13,10 @@ In this chapter,
      - added a filter based on "Effort", the value is an integer. So I added two input fields to specify the maximum and minimum Effort values.      
 3. Edit Form     
      - implemented the edit page for issues, also added Prev and Next links in this page.      
-
+4. Specialized Input Components     
+     - make reusable UI components for the non-string inputs, which emit natural data types in their `onChange` handlers.     
+     - Number Input     
+       - created UI component NumInput in `NumInput.jsx` file and used it for the effort field in the Edit page.      
 
 
 
