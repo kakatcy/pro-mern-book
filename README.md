@@ -22,6 +22,8 @@ In this chapter,
      - replaced plain table into a Bootstrap table which looks better and made the row clickable to select the issue, it doesn't conflict with edit, close and delete functions.      
 6. Forms     
      - changed the style of the filter by using many React-Bootstrap components such as ButtonToolbar, ControlLabel.      
+7. The Grid System     
+     - used Bootstrap's grid system to make the table look better in different size of screen.     
 
 
 
