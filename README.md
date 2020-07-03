@@ -15,6 +15,10 @@ In this chapter,
      - changed Apply and Reset buttons to Bootstrap buttons and used icons to replace Close and Delete links.     
 3. Navigation Bar     
      - styled the navigation links in the header and added a footer in the bottom that are visible on all pages.    
+4. Panels    
+     - BootStrap's Panel component is a great way to show sections separately using a border and an optional heading.    
+     - used Grid component to add margins and made the panel clickable.    
+
 
 
 
