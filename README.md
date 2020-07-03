@@ -13,7 +13,8 @@ In this chapter,
      - made the issuetrack page fit different size of screen.     
 2. Buttons      
      - changed Apply and Reset buttons to Bootstrap buttons and used icons to replace Close and Delete links.     
-
+3. Navigation Bar     
+     - styled the navigation links in the header and added a footer in the bottom that are visible on all pages.    
 
 
 
