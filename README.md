@@ -1,4 +1,25 @@
 # Chapter notes
+
+## Chapter 11: React-Bootstrap
+**Summary**   
+In this chapter, 
+
+
+
+
+**Chapter 11 notes:**   
+1. Bootstrap Installation     
+     - Installed React-Bootstrap which contains a library of React components and has no CSS styles or themes itself.     
+     - made the issuetrack page fit different size of screen.     
+2. Buttons      
+     - changed Apply and Reset buttons to Bootstrap buttons and used icons to replace Close and Delete links.     
+
+
+
+
+
+
+
 ## Chapter 10: React Forms
 **Summary**   
 In this chapter, Firstly, I compared the controlled and uncontrolled form components, and added apply button and reset button to control filters. Secondly, I created some React UI components such as NumInput, DateInput and TextInput, which used for different types of data. Lastly, I finished the CRUD paradigm by adding Update and Delete operation. I implemented update for a whole issue and also just change to states of issue. For the deletion part, I added a delete button and users can click it to delete the issue.     
