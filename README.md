@@ -26,6 +26,8 @@ In this chapter,
      - used Bootstrap's grid system to make the table look better in different size of screen.     
 8. Horizontal Forms     
      - changed the Issue Edit page to use a horizontal form and also used validation states that Bootstrap provides to highlight invalid input.     
+9. Validation Alerts     
+     - used Alert component to display the validation message in the Issue Edit page.      
 
 
 
