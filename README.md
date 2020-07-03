@@ -18,6 +18,8 @@ In this chapter,
 4. Panels    
      - BootStrap's Panel component is a great way to show sections separately using a border and an optional heading.    
      - used Grid component to add margins and made the panel clickable.    
+5. Tables      
+     - replaced plain table into a Bootstrap table which looks better and made the row clickable to select the issue, it doesn't conflict with edit, close and delete functions.      
 
 
 
