@@ -24,6 +24,8 @@ In this chapter,
      - changed the style of the filter by using many React-Bootstrap components such as ButtonToolbar, ControlLabel.      
 7. The Grid System     
      - used Bootstrap's grid system to make the table look better in different size of screen.     
+8. Horizontal Forms     
+     - changed the Issue Edit page to use a horizontal form and also used validation states that Bootstrap provides to highlight invalid input.     
 
 
 
