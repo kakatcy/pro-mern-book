@@ -28,6 +28,8 @@ In this chapter,
      - changed the Issue Edit page to use a horizontal form and also used validation states that Bootstrap provides to highlight invalid input.     
 9. Validation Alerts     
      - used Alert component to display the validation message in the Issue Edit page.      
+10. Toasts     
+     - Created a component Toast to make result messages and informational alerts disappear after a few seconds automatically.     
 
 
 
