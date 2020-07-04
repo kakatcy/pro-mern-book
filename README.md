@@ -30,11 +30,9 @@ In this chapter,
      - used Alert component to display the validation message in the Issue Edit page.      
 10. Toasts     
      - Created a component Toast to make result messages and informational alerts disappear after a few seconds automatically.     
-
-
-
-
-
+11. Modals      
+     - replaced the issueadd component with a modal dialog that is launched by clicking the create issue navigation item in the header.       
+     - a modal works better than separate page when the number of required fields is small.      
 
 
 ## Chapter 10: React Forms
