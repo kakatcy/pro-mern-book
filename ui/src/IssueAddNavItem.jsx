@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import {
   NavItem, Glyphicon, Modal, Form, FormGroup, FormControl, ControlLabel,
-Button, ButtonToolbar, Tooltip, OverlayTrigger,
+  Button, ButtonToolbar, Tooltip, OverlayTrigger,
 } from 'react-bootstrap';
 
 import graphQLFetch from './graphQLFetch.js';

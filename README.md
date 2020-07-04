@@ -2,15 +2,17 @@
 
 ## Chapter 11: React-Bootstrap
 **Summary**   
-In this chapter, 
+In this chapter, I used the React Bootstrap to make the IssueTracker website looks better and be responsive. Firstly, I used bootstrap components to change replace original components such as buttons, navigation bar, tables etc. Also I changed the filter into a clickable component and it can be displayed or hidden when users click it. In addition, I changed the issue add button to a modal component which is a better way than separate page when the required field is small.       
 
 
+Here is the screenshot of my program:   
+![image](readme_images/ch11.jpg)
 
 
 **Chapter 11 notes:**   
 1. Bootstrap Installation     
      - Installed React-Bootstrap which contains a library of React components and has no CSS styles or themes itself.     
-     - made the issuetrack page fit different size of screen.     
+     - made the IssueTrack page fit different size of screen.     
 2. Buttons      
      - changed Apply and Reset buttons to Bootstrap buttons and used icons to replace Close and Delete links.     
 3. Navigation Bar     

@@ -209,14 +209,14 @@ export default class IssueEdit extends React.Component {
               <Col componentClass={ControlLabel} sm={3}>Due</Col>
               <Col sm={9}>
                 <FormControl
-                    componentClass={DateInput}
-                    onValidityChange={this.onValidityChange}
-                    name="due"
-                    value={due}
-                    onChange={this.onChange}
-                    key={id}
-                  />
-                  <FormControl.Feedback />
+                  componentClass={DateInput}
+                  onValidityChange={this.onValidityChange}
+                  name="due"
+                  value={due}
+                  onChange={this.onChange}
+                  key={id}
+                />
+                <FormControl.Feedback />
               </Col>
             </FormGroup>
             <FormGroup>

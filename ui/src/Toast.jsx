@@ -9,7 +9,7 @@ export default class Toast extends React.Component {
       this.dismissTimer = setTimeout(onDismiss, 5000);
     }
   }
-  
+
   componentWillUnmount() {
     clearTimeout(this.dismissTimer);
   }
@@ -26,6 +26,6 @@ export default class Toast extends React.Component {
           </Alert>
         </div>
       </Collapse>
-    ); 
+    );
   }
 }

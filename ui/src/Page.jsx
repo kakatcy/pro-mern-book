@@ -1,12 +1,12 @@
 import React from 'react';
 import {
   Navbar, Nav, NavItem, NavDropdown,
-  MenuItem, Glyphicon, Tooltip, OverlayTrigger, Grid,
+  MenuItem, Glyphicon, Grid,
 } from 'react-bootstrap';
-import IssueAddNavItem from './IssueAddNavItem.jsx';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import Contents from './Contents.jsx';
+import IssueAddNavItem from './IssueAddNavItem.jsx';
 
 function NavBar() {
   return (
@@ -35,7 +35,7 @@ function NavBar() {
           <MenuItem>About</MenuItem>
         </NavDropdown>
       </Nav>
-    </Navbar>  
+    </Navbar>
   );
 }
 
