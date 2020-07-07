@@ -1,4 +1,14 @@
 # Chapter notes
+## Chapter 12: Server Rendering
+**Summary**   
+In this chapter,
+
+
+**Chapter 12 notes:** 
+1. New Directory Structure      
+     - split source code into three directories, moved browser-specific and server-specific files to new directories called browser and server respectively.      
+
+
 
 ## Chapter 11: React-Bootstrap
 **Summary**   
