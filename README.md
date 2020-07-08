@@ -7,6 +7,8 @@ In this chapter,
 **Chapter 12 notes:** 
 1. New Directory Structure      
      - split source code into three directories, moved browser-specific and server-specific files to new directories called browser and server respectively.      
+2. Basic Server Rendering      
+     - implemented the About page and compared browser-rendered version and server-rendered version.      
 
 
 
