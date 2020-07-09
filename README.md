@@ -9,7 +9,8 @@ In this chapter,
      - split source code into three directories, moved browser-specific and server-specific files to new directories called browser and server respectively.      
 2. Basic Server Rendering      
      - implemented the About page and compared browser-rendered version and server-rendered version.      
-
+3. Webpack for the Server      
+     - used webpack for the server and solved the compatible issues between webpack and server-side node packages.       
 
 
 ## Chapter 11: React-Bootstrap
