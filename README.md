@@ -13,6 +13,14 @@ In this chapter,
      - used webpack for the server and solved the compatible issues between webpack and server-side node packages.       
 4. HMR for the Server      
      - used HMR to reload the modules automatically in the back-end, then we don't have to  restart for every change.     
+5. Server Router       
+     - solved the issue that About page was rendered from the server was different from the way it was rendered by navigating to it from /issues.       
+
+
+
+
+
+
 
 
 ## Chapter 11: React-Bootstrap
