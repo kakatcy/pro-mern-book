@@ -11,6 +11,8 @@ In this chapter,
      - implemented the About page and compared browser-rendered version and server-rendered version.      
 3. Webpack for the Server      
      - used webpack for the server and solved the compatible issues between webpack and server-side node packages.       
+4. HMR for the Server      
+     - used HMR to reload the modules automatically in the back-end, then we don't have to  restart for every change.     
 
 
 ## Chapter 11: React-Bootstrap
