@@ -15,6 +15,9 @@ In this chapter,
      - used HMR to reload the modules automatically in the back-end, then we don't have to  restart for every change.     
 5. Server Router       
      - solved the issue that About page was rendered from the server was different from the way it was rendered by navigating to it from /issues.       
+6. Data from API      
+     - tried to get data from API server for About component, and used a global store for all data that is needed for the hierarchy of components that need to be rendered.     
+
 
 
 
