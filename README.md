@@ -25,6 +25,12 @@ In this chapter,
 9. Generated Routes      
      - fixed the React error for mismatched div for all pages.       
      - kept a list of routable pages in routes.js which is a simple array with the path to the route and the component that needs to be rendered if the route is matched with the URL.       
+10. Data Fetcher with Parameters     
+     - made the IssueEdit component rendered from the server with the data that it requires prepopulated.      
+     - serialized the contents of the initialize data to solve the `Uncaught TypeError: created.toDataString is not a function` problem.       
+11. Data Fetcher with Search     
+     - implemented the data fetcher in the IssueList component and dealt with the fact that the search string part of the URL is needed for fetching.      
+ 
 
 
 
