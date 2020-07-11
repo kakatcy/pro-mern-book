@@ -1,4 +1,23 @@
 # Chapter notes
+## Chapter 13: Advanced Features
+**Summary**   
+In this chapter, 
+
+
+
+**Chapter 13 notes:** 
+1. Higher Order Component for Toast     
+     - created higher order component for toast and reused it for IssueList, IssueEdit and IssueAddNavItem components.      
+
+
+
+
+
+
+
+
+
+
 ## Chapter 12: Server Rendering
 **Summary**   
 In this chapter, we implemented the server rendering which is the ability to generate HTML on the server and then send it to browser. Firstly, I created About page to implement the basic server rendering and also compared it with browser rendering. Also, I solved some issues like compatible issue, content mismatch issue and so on. After using server rendering correctly for about component, I extended the changes to all other pages, like IssueList component, IssueEdit component and IssueDetail component.      
