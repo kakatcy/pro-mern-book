@@ -51,8 +51,9 @@ class IssueReport extends React.Component {
     const { location: { search: prevSearch } } = prevProps;
     const { location: { search } } = this.props;
     if (prevSearch !== search) {
-      this.loadData(); }
+      this.loadData();
     }
+  }
 
   async loadData() {
     const { location: { search }, match, showError } = this.props;

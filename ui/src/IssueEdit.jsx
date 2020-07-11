@@ -85,10 +85,10 @@ class IssueEdit extends React.Component {
         id: $id
         changes: $changes
       ) {
-          id title status owner
-          effort created due description
-        }
-      }`;
+        id title status owner
+        effort created due description
+      }
+    }`;
 
     const { id, created, ...changes } = issue;
     const { showSuccess, showError } = this.props;

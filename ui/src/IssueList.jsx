@@ -62,13 +62,13 @@ class IssueList extends React.Component {
         effortMin: $effortMin
         effortMax: $effortMax
         page: $page
-    ) {
-      issues {
-        id title status owner
-        created effort due
+      ) {
+        issues {
+          id title status owner
+          created effort due
+        }
+        pages
       }
-      pages
-    }
       issue(id: $selectedId) @include (if : $hasSelection) {
         id description
       }

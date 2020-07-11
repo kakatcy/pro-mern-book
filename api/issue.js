@@ -9,7 +9,9 @@ async function get(_, { id }) {
 
 const PAGE_SIZE = 10;
 
-async function list(_, { status, effortMin, effortMax, search, page, }) {
+async function list(_, {
+  status, effortMin, effortMax, search, page,
+}) {
   const db = getDb();
   const filter = {};
   if (status) filter.status = status;

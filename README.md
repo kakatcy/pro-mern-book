@@ -1,7 +1,7 @@
 # Chapter notes
 ## Chapter 13: Advanced Features
 **Summary**   
-In this chapter, 
+In this chapter, I learned and used more advanced features that make the IssueTracker application more useable. Firstly, I used higher order component to reuse code. I also learned more operations about MongoDB like automatically add issues into database, get summarized information and so on. In addition, I added a pagination which is necessary for big datasets and implemented an undo delete function. Lastly, I added a search bar where users can search issue by inputing key words.    
 
 
 Here is the screenshot of my program:   
