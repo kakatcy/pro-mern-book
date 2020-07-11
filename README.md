@@ -8,6 +8,10 @@ In this chapter,
 **Chapter 13 notes:** 
 1. Higher Order Component for Toast     
      - created higher order component for toast and reused it for IssueList, IssueEdit and IssueAddNavItem components.      
+2. MongoDB Aggregate     
+     - randomly added 100 issues into database, and tested mongodb commands that will help build the Report page.     
+3. Report page          
+     - implemented the report page which shows issues counts.     
 
 
 
