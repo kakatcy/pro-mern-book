@@ -14,6 +14,8 @@ In this chapter,
      - implemented issues counts API and used it for the report page.     
 4. Pagination    
      - created an API to calculate issue's page and used the React-Bootstrap to add a pagination part according to the API.     
+5. Undo Delete    
+     - created an API to restore a deleted issue and created a undo button to recall the API.      
 
 
 
