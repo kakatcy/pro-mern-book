@@ -4,6 +4,9 @@
 In this chapter, 
 
 
+Here is the screenshot of my program:   
+![image](readme_images/ch13_search.jpg)
+![image](readme_images/ch13_report.jpg)
 
 **Chapter 13 notes:** 
 1. Higher Order Component for Toast     
@@ -15,15 +18,9 @@ In this chapter,
 4. Pagination    
      - created an API to calculate issue's page and used the React-Bootstrap to add a pagination part according to the API.     
 5. Undo Delete    
-     - created an API to restore a deleted issue and created a undo button to recall the API.      
-
-
-
-
-
-
-
-
+     - created an API to restore a deleted issue and created an undo button to recall the API.      
+6. Search Bar     
+     - created an API to find issues when users type some words, and added a search bar to input words.       
 
 
 ## Chapter 12: Server Rendering
