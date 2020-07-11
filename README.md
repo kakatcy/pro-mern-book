@@ -30,7 +30,8 @@ In this chapter,
      - serialized the contents of the initialize data to solve the `Uncaught TypeError: created.toDataString is not a function` problem.       
 11. Data Fetcher with Search     
      - implemented the data fetcher in the IssueList component and dealt with the fact that the search string part of the URL is needed for fetching.      
- 
+12. Nested Componenets        
+     - changed the IssueDetail to server rendering by including an optional Issue ID in the route specification for IssueList.      
 
 
 
