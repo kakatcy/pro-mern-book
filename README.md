@@ -11,7 +11,9 @@ In this chapter,
 2. MongoDB Aggregate     
      - randomly added 100 issues into database, and tested mongodb commands that will help build the Report page.     
 3. Report page          
-     - implemented the report page which shows issues counts.     
+     - implemented issues counts API and used it for the report page.     
+4. Pagination    
+     - created an API to calculate issue's page and used the React-Bootstrap to add a pagination part according to the API.     
 
 
 
