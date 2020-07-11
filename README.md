@@ -1,8 +1,11 @@
 # Chapter notes
 ## Chapter 12: Server Rendering
 **Summary**   
-In this chapter,
+In this chapter, we implemented the server rendering which is the ability to generate HTML on the server and then send it to browser. Firstly, I created About page to implement the basic server rendering and also compared it with browser rendering. Also, I solved some issues like compatible issue, content mismatch issue and so on. After using server rendering correctly for about component, I extended the changes to all other pages, like IssueList component, IssueEdit component and IssueDetail component.      
 
+
+Here is the screenshot of my program:   
+![image](readme_images/ch12.jpg)
 
 **Chapter 12 notes:** 
 1. New Directory Structure      
@@ -31,13 +34,9 @@ In this chapter,
 11. Data Fetcher with Search     
      - implemented the data fetcher in the IssueList component and dealt with the fact that the search string part of the URL is needed for fetching.      
 12. Nested Componenets        
-     - changed the IssueDetail to server rendering by including an optional Issue ID in the route specification for IssueList.      
-
-
-
-
-
-
+     - changed the IssueDetail to server rendering by including an optional Issue ID in the route specification for IssueList.     
+13. Redirects     
+     - changed the request to home page / from redirecting to /issues in the browser history to a 301 redirect that browser fetches /issues instead of the server.      
 
 
 ## Chapter 11: React-Bootstrap

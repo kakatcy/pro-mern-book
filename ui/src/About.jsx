@@ -12,7 +12,7 @@ export default class About extends React.Component {
     super(props);
     const apiAbout = store.initialData ? store.initialData.about : null;
     delete store.initialData;
-    this.state ={ apiAbout };
+    this.state = { apiAbout };
   }
 
   async componentDidMount() {
