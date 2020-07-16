@@ -1,4 +1,21 @@
 # Chapter notes
+## Chapter 14: Authentication
+**Summary**   
+In this chapter, 
+
+
+
+
+**Chapter 14 notes:** 
+1. Sign-In UI        
+     - added a Sign-In modal which has showModal and hideModal to control the visible state of the modal.      
+2. Google Sign-In       
+     - replaced the Sign-In button with a button to sign in using Google.     
+ 
+
+
+
+
 ## Chapter 13: Advanced Features
 **Summary**   
 In this chapter, I learned and used more advanced features that make the IssueTracker application more useable. Firstly, I used higher order component to reuse code. I also learned more operations about MongoDB like automatically add issues into database, get summarized information and so on. In addition, I added a pagination which is necessary for big datasets and implemented an undo delete function. Lastly, I added a search bar where users can search issue by inputing key words.    
