@@ -11,6 +11,8 @@ In this chapter,
      - added a Sign-In modal which has showModal and hideModal to control the visible state of the modal.      
 2. Google Sign-In       
      - replaced the Sign-In button with a button to sign in using Google.     
+3. Verifying the Google Token      
+     - verify the google token at the back-end.     
  
 
 
