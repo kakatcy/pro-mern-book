@@ -25,6 +25,8 @@ In this chapter,
 8. React Context       
      - made all other relative components aware of the authentication status, disabled the close,delete and submit buttons.     
      - React Context can be used to pass properties across the component hierarchy without making intermediate components aware of it.          
+9. CORS with Credentials       
+     - made the application to work in the non-proxy mode by relaxing the CORS options and maintained security at the same time.      
 
 
 
