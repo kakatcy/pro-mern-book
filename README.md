@@ -16,7 +16,9 @@ In this chapter,
 4. JSON Web Tokens      
      - generated a token and send it to the browser by using JSON Web Tokens, it will be included in every API call to identify the signed-in user.     
      - used cookies to store JWT.     
- 
+5. Signing Out      
+     - clear JWT cookie in the browser and forgot the Google authentication when click on sign out.      
+
 
 
 

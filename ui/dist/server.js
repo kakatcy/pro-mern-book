@@ -22,7 +22,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f64c254e74375bcfb58d";
+/******/ 	var hotCurrentHash = "4a0490496f0855e49000";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -3005,13 +3005,27 @@ class SigninNavItem extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compone
     }
   }
 
-  signOut() {
-    this.setState({
-      user: {
-        signedIn: false,
-        givenName: ''
-      }
-    });
+  async signOut() {
+    const apiEndpoint = window.ENV.UI_AUTH_ENDPOINT;
+    const {
+      showError
+    } = this.props;
+
+    try {
+      await fetch(`${apiEndpoint}/signout`, {
+        method: 'POST'
+      });
+      const auth2 = window.gapi.auth2.getAuthInstance();
+      await auth2.signOut();
+      this.setState({
+        user: {
+          signedIn: false,
+          givenName: ''
+        }
+      });
+    } catch (error) {
+      showError(`Error signing out: ${error}`);
+    }
   }
 
   showModal() {
