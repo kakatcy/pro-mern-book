@@ -18,7 +18,13 @@ In this chapter,
      - used cookies to store JWT.     
 5. Signing Out      
      - clear JWT cookie in the browser and forgot the Google authentication when click on sign out.      
-
+6. Authorization     
+     - ensured that the back-end APIs are secure and prevented unauthorized modification.        
+7. Authorization-Aware UI      
+     - disabled the create issue button in the navigation bar when the user is not signed in.     
+8. React Context       
+     - made all other relative components aware of the authentication status, disabled the close,delete and submit buttons.     
+     - React Context can be used to pass properties across the component hierarchy without making intermediate components aware of it.          
 
 
 
