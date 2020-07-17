@@ -13,6 +13,9 @@ In this chapter,
      - replaced the Sign-In button with a button to sign in using Google.     
 3. Verifying the Google Token      
      - verify the google token at the back-end.     
+4. JSON Web Tokens      
+     - generated a token and send it to the browser by using JSON Web Tokens, it will be included in every API call to identify the signed-in user.     
+     - used cookies to store JWT.     
  
 
 
