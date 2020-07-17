@@ -27,6 +27,8 @@ In this chapter,
      - React Context can be used to pass properties across the component hierarchy without making intermediate components aware of it.          
 9. CORS with Credentials       
      - made the application to work in the non-proxy mode by relaxing the CORS options and maintained security at the same time.      
+10. Server Rendering with Credentials     
+     - implemented server rendering with credentials to solve the flicker which transitions from an unsigned-in state to a signed-in state.     
 
 
 
