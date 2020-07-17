@@ -22,7 +22,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "da84fccfcffef5d1e812";
+/******/ 	var hotCurrentHash = "b0eba5f340c45ad40d77";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2663,7 +2663,6 @@ class IssueRowPlain extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compone
 
 }
 
-;
 IssueRowPlain.contextType = _UserContext_js__WEBPACK_IMPORTED_MODULE_4__["default"];
 const IssueRow = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(IssueRowPlain);
 delete IssueRow.contextType;

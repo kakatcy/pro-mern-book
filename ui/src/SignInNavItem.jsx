@@ -7,15 +7,15 @@ import withToast from './withToast.jsx';
 
 class SigninNavItem extends React.Component {
   constructor(props) {
-  super(props);
-  this.state = {
-    showing: false,
-    disabled: true,
-  };
-  this.showModal = this.showModal.bind(this);
-  this.hideModal = this.hideModal.bind(this);
-  this.signOut = this.signOut.bind(this);
-  this.signIn = this.signIn.bind(this);
+    super(props);
+    this.state = {
+      showing: false,
+      disabled: true,
+    };
+    this.showModal = this.showModal.bind(this);
+    this.hideModal = this.hideModal.bind(this);
+    this.signOut = this.signOut.bind(this);
+    this.signIn = this.signIn.bind(this);
   }
 
   componentDidMount() {
@@ -24,7 +24,7 @@ class SigninNavItem extends React.Component {
     window.gapi.load('auth2', () => {
       if (!window.gapi.auth2.getAuthInstance()) {
         window.gapi.auth2.init({ client_id: clientId }).then(() => {
-          this.setState({ disabled: false }); 
+          this.setState({ disabled: false });
         });
       }
     });
@@ -60,7 +60,7 @@ class SigninNavItem extends React.Component {
       showError(`Error signing into the app: ${error}`);
     }
   }
-  
+
   async signOut() {
     const apiEndpoint = window.ENV.UI_AUTH_ENDPOINT;
     const { showError } = this.props;
@@ -112,24 +112,23 @@ class SigninNavItem extends React.Component {
           <Modal.Header closeButton>
             <Modal.Title>Sign in</Modal.Title>
           </Modal.Header>
-        <Modal.Body>
-          <Button 
-            block
-            disabled={disabled}
-            bsStyle="primary"
-            onClick={this.signIn}
-          >
-            <img src="https://goo.gl/4yjp6B" alt="Sign In" />
-          </Button>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button bsStyle="link" onClick={this.hideModal}>Cancel</Button>
-        </Modal.Footer>
+          <Modal.Body>
+            <Button
+              block
+              disabled={disabled}
+              bsStyle="primary"
+              onClick={this.signIn}
+            >
+              <img src="https://goo.gl/4yjp6B" alt="Sign In" />
+            </Button>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button bsStyle="link" onClick={this.hideModal}>Cancel</Button>
+          </Modal.Footer>
         </Modal>
       </>
-    ); 
+    );
   }
 }
 
 export default withToast(SigninNavItem);
- 

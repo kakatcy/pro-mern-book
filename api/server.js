@@ -9,7 +9,7 @@ const auth = require('./auth.js');
 const app = express();
 
 app.use(cookieParser());
-app.use('/auth',auth.routes);
+app.use('/auth', auth.routes);
 
 installHandler(app);
 

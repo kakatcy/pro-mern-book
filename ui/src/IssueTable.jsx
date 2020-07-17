@@ -73,7 +73,7 @@ class IssueRowPlain extends React.Component {
       </LinkContainer>
     );
   }
-};
+}
 
 IssueRowPlain.contextType = UserContext;
 const IssueRow = withRouter(IssueRowPlain);

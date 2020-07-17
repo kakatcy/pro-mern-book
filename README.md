@@ -1,10 +1,11 @@
 # Chapter notes
 ## Chapter 14: Authentication
 **Summary**   
-In this chapter, 
+In this chapter, I implemented the authentication for the IssueTracker program. Firstly, I used google to authenticate a user and also implemented sign out function. Secondly, I also did authorization checks, blocked some functions like delete, submit functions if a user is not signed in which made this program more applicable. In addition, I also used server rendering with credentials to solve the flicker between unsigned and signed states. Lastly, set cookie domain and test it also works well for real domains.      
 
 
-
+Here is the screenshot of my program:   
+![image](readme_images/ch14.jpg)
 
 **Chapter 14 notes:** 
 1. Sign-In UI        
@@ -29,7 +30,8 @@ In this chapter,
      - made the application to work in the non-proxy mode by relaxing the CORS options and maintained security at the same time.      
 10. Server Rendering with Credentials     
      - implemented server rendering with credentials to solve the flicker which transitions from an unsigned-in state to a signed-in state.     
-
+11. Cookie Domain     
+     - tested the program whether it works well for real domains since cookies and CORS work differently when it comes to cross-site requests.       
 
 
 
