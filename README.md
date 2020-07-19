@@ -1,4 +1,19 @@
 # Chapter notes
+## Chapter 15: Deployment
+**Summary**   
+In this chapter,
+
+
+
+
+**Chapter 15 notes:** 
+1. Git Repositories       
+     - created repositories in my personal GitHub account and pushed api and ui code there.       
+2. 
+
+
+
+
 ## Chapter 14: Authentication
 **Summary**   
 In this chapter, I implemented the authentication for the IssueTracker program. Firstly, I used google to authenticate a user and also implemented sign out function. Secondly, I also did authorization checks, blocked some functions like delete, submit functions if a user is not signed in which made this program more applicable. In addition, I also used server rendering with credentials to solve the flicker between unsigned and signed states. Lastly, set cookie domain and test it also works well for real domains.      
