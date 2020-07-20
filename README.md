@@ -1,15 +1,15 @@
 # Chapter notes
 ## Chapter 15: Deployment
 **Summary**   
-In this chapter, 
+In this chapter, I deployed Issue Tracker application to the Heroku. Firstly, I pushed my api application and ui application to my personal Github repo respectively. Then created Heroku repos and used Heroku add-on mLab as the cloud database, I also used scripts to initialize and generate issue data for database. In addition, I deployed api application and ui application to Heroku and solved some problems like CORS error, authentication issues and so on.        
 
-Link of my application:
+Link of my application:      
 https://tracker-ui-kakatcy.herokuapp.com
 
-My deployment repos can be found here:
-https://github.com/kakatcy/tracker-api
+My deployment repos can be found here:     
+https://github.com/kakatcy/tracker-api       
 
-https://github.com/kakatcy/tracker-ui
+https://github.com/kakatcy/tracker-ui      
 
 
 Here is the screenshot of my program:   
