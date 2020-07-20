@@ -1,21 +1,29 @@
 # Chapter notes
 ## Chapter 15: Deployment
 **Summary**   
-In this chapter,
+In this chapter, 
+
+Link of my application:
+https://tracker-ui-kakatcy.herokuapp.com
+
+My deployment repos can be found here:
+https://github.com/kakatcy/tracker-api
+
+https://github.com/kakatcy/tracker-ui
 
 
-
+Here is the screenshot of my program:   
+![image](readme_images/ch15.jpg)
 
 **Chapter 15 notes:** 
 1. Git Repositories       
      - created repositories in my personal GitHub account and pushed api and ui code there.       
 2. MongoDB       
      - used Heroku add-on mLab and found the password in mLab setting which is a part of Mongo URL, then recall scripts to initialize and generate data for database.      
-3. The API Application     
-     - deployed api application on Heroku.     
- 
-
-
+3. The API and UI Application     
+     - deployed api and ui applications on Heroku.     
+4. Proxy Mode      
+     - set up the proxy mode by setting the corresponding environment variables and solved the authentication problems.       
 
 
 ## Chapter 14: Authentication
