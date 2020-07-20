@@ -9,7 +9,11 @@ In this chapter,
 **Chapter 15 notes:** 
 1. Git Repositories       
      - created repositories in my personal GitHub account and pushed api and ui code there.       
-2. 
+2. MongoDB       
+     - used Heroku add-on mLab and found the password in mLab setting which is a part of Mongo URL, then recall scripts to initialize and generate data for database.      
+3. The API Application     
+     - deployed api application on Heroku.     
+ 
 
 
 
